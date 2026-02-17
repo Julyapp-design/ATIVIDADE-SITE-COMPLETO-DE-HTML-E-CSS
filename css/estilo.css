@@ -1,0 +1,193 @@
+*{margin:0;
+padding:0;}
+
+
+main{width: 1024px;
+margin: auto;}
+/* NAVEGAÇÃO */
+
+nav{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size:20px;
+  color:black;
+    width: 100%;
+    height: 100px;
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid black;
+position: fixed;
+background: white;}
+
+nav a{color:black;
+text-decoration: none;}
+
+nav a:hover{text-decoration: underline;}
+
+.menu{list-style: none;
+width: 550px;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.botaoinicio{color:white;
+background: black;
+padding-left: 60px;
+padding-right: 60px;
+padding-top:37px;
+padding-bottom: 40px;}
+
+
+.logofotomax{margin-left: 60px;}
+
+header {height: 100px;
+border-bottom: 1px solid black;
+align-items: center;}
+
+/* TIPOGRAFIA */
+h1{font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  color:red;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;}
+
+
+h2{font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: 40px;
+  color:#646060;
+  text-decoration: underline;}
+
+
+.p {font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: 14px;
+  color:#646060;}
+
+/* SEÇÃO SLIDER */
+
+.btnsaibamais{text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 20px;}
+
+.btnsaibamais a{color:white;
+background: red;
+text-decoration: none;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 25px;}
+
+.btnsaibamais a:hover{color:red;
+background: white;
+border: 1px solid red;
+transition: 0.5s;}
+
+#slider{margin-top: 80px;}
+
+/* SEÇÃO SOBRE */
+
+
+
+#sobre{margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+justify-content: space-between;}
+#sobre h2,br{font-size:33px; }
+
+
+
+#sobre div{width: 50%;}
+
+/* SEÇÃO GALERIA */
+
+#galeria h2{text-align: center;
+margin-bottom: 50px;
+font-size: 33px;}
+
+
+.fotos{display: flex;
+justify-content: space-between;}
+
+.fotosmenores{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
+
+.fotosmenores div{margin-bottom: 50px;}
+
+.fotomaior{margin-right: 59px}
+/* SEÇÃO ÁLBUM */
+
+#álbum h2{text-align: center;
+margin-bottom: 50px;
+font-size: 33px;}
+
+.album{display: flex;
+justify-content: space-between;}
+
+.textoalbum{background: #c4c4c4;
+padding:50px;
+height: 232px;}
+
+
+/* SEÇÃO CONTATO */
+
+footer{background: #343333;
+padding-top: 30px;
+padding-bottom: 100px;
+margin-top: 80px;}
+
+#contato{width: 1024px;
+margin: auto;
+display: flex;
+justify-content: space-between;}
+
+#contato h2 {color:#BDBABA;}
+
+#contato h2{margin-bottom: 30px;
+font-size: 33px;}
+
+#contato p{color:#BDBABA;}
+
+.textocontato{width: 400px;}
+
+#e-mail{width: 350px;
+height: 40px;
+border-radius: 10px;
+background: #BDBABA;
+margin-top: 10px;
+margin-bottom: 20px;}
+
+#mensagem{width: 350px;
+height: 140px;
+border-radius: 10px;
+background: #BDBABA;
+margin-bottom: 20px;}
+
+#botaoenviar{font-family: "Quicksand", sans-serif;
+font-weight: 400;
+font-size: 15px;
+color:black;
+background: #BDBABA;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;}
+
+/* RESPONSIVIDADE PARA TABLETS */
+
+@media(max-width:1169px){
+    html{background: yellow;}
+}
+
+/*RESPONSIVIDADE PARA CELULARES */
+
+@media(max-width:767px){
+    html{background: lightgray;}
+}
